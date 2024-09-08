@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/premium-vector/empty-black-color-studio-room-background-can-use-background-product-display_322958-1951.jpg');
+    background-size: cover;
+}
+#intro{
+    color: white;
+    width: 100vw;
+    height: 65vh;
+    background-image: url('https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/364006215_871855894296495_1776011570713655452_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=783fdb&_nc_ohc=FPxDhLU-QEkAX9sGRgx&_nc_ht=scontent.fdel72-1.fna&oh=00_AfCmOHKahbt8wsJR88_TRu__b-8j9NB5V2wiMWep_o9MGA&oe=65EBF666');
+    background-size: cover;
+    background-position-y: -90%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.8);
+}
+#artist{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 1.4rem;
+    padding: 80px 0 0 30px;
+}
+#arrows{
+    position: fixed;
+    display: flex;
+    padding: 20px;
+    gap: 5px;
+    cursor: pointer;
+}
+#arrows a{
+    color: white;
+}
+#left:hover{
+    opacity: 0.6;
+}
+#tick{
+    background-color: rgb(78, 78, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 50%;
+}
+#intro h1{
+    font-size: 10rem;
+    font-weight: 550;
+}
+#one{
+    display: flex;
+    gap: 15px;
+}
+#play button{
+    background-color: #1ED760;
+    padding: 10px 35px 10px 35px;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-radius: 20px;
+
+}
+#listeners{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding: 0 3rem 0 0;
+    align-items: center;
+}
+#follow button{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(65, 65, 65);
+    border: 0px;
+}
+#play button:hover, #follow button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+#dotted{
+    height: 45px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+#dotted:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+#options{
+    display: flex;
+    text-transform: uppercase;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+#overview, #related, #about, #concerts{
+    padding: 10px;
+}
+#overview:hover, #related:hover, #about:hover, #concerts:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#details{
+    display: grid;
+    padding: 30px 20px 20px 20px;
+    grid-template-columns: 3fr 1fr;
+    color: white;
+}
+#songs h2{
+    font-size: 1.5rem;
+
+}
+#socials{
+    color: white;
+}
+#socials h2{
+    font-size: 2rem;
+}
+#handles{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 20px 0 0 0;
+}
+#handles a{
+    color: white;
+    text-decoration: none;
+}
+#handles a:hover{
+    text-decoration: underline;
+}
+.sm{
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.image img{
+    height: 50px;
+    width: 50px;
+}
+.song{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 8rem 0.5rem 4rem;
+    width: 95%;
+    border-radius: 20px;
+}
+.song:hover{
+    background-color: rgb(65,65,65);
+    cursor: pointer;
+}
+.firsthalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+.secondhalf{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    display: flex;
+    gap: 0.5rem;
+}
+#footer{
+    background-color: black;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(166, 166, 166);
+    padding: 25px 30px 20px 30px;
+}
+#additional_features{
+    display: flex;
+    gap: 1rem;
+}
+#song_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#song_picture{
+    height: 60px;
+    width: 60px;
+}
+#songandsinger{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+#song_time{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+#upper{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+#pause, #prev , #next{
+    font-size: 1.6rem;
+}
+#pause:hover, #prev:hover , #next:hover{
+    cursor: pointer;
+}
+#progressbar{
+    background-color: gray;
+    width: 100%;
+    height: 5px;
+}
+#mybar{
+    background-color: #1ED760;
+    height: 5px;
+    width: 0%;
+}
+#set_volume{
+    color: #1ED760;
+    background-color:#1ED760;
+}
+/* #volume_bar{
+    color: #1ED760;
+} */
+
+/* .volume::-webkit-slider-runnable-track {
+    background-color: #1ED760;
+}
+
+.volume::-webkit-slider-thumb {
+    background-color: #1ED760;
+} */
+
+/* CSS */
+
+.spotify-volume {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #1ED760 0%, #1ED760 50%, #666666 50%, #666666 100%);
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.spotify-volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #1ED760;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.spotify-volume::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background-color: #1ED760;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Remove default Firefox styling */
+.spotify-volume::-moz-focus-outer {
+    border: 0;
+}

@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    background-size: cover;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/premium-vector/empty-black-color-studio-room-background-can-use-background-product-display_322958-1951.jpg');
+    color: white;
+}
+#header{
+    background-color: black;
+    padding: 12px;
+    display: flex;
+    flex: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 3%;
+    justify-content: space-between;
+}
+#mode{
+    padding: 0 20px 0 0;
+}
+#mode:hover{
+    cursor: pointer;
+}
+#brand{
+    display: flex;
+    align-items: center;
+    flex: auto;
+}
+#logo img{
+    width: 70px;
+    height: 70px;
+}
+#body{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#content{
+    background-color: black;
+    border-radius: 10px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px 60px 0px;
+}
+#content h1{
+    font-weight: 900;
+}
+#options{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 50px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    gap: 10px;
+}
+.select{
+    display: flex;
+    gap: 20px;
+    flex: auto;
+    border: solid 3px #454545;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    min-width: 25vw;
+}
+.select:hover{
+    cursor: pointer;
+    border-color: rgb(164, 164, 164);
+}
+.enter{
+    border: solid 1px #454545;
+    border-radius: 5px;
+    min-width: 25vw;
+}
+#error{
+    color: red;
+}
+.enter:hover{
+    border-color: rgb(164, 164, 164);
+}
+.enter input{
+    background-color: black;
+    color: white;
+    padding:10px 20px 10px 10px;
+    font-size: 0.8rem;
+    border: 0px;
+    min-width: 25vw;
+}
+#enter{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    font-size: .87rem;
+    flex: auto;
+}
+#mail, #pass{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    flex: auto;
+    justify-content: center;
+    /* align-items: center; */
+}
+#loginbtn{
+    min-width: 25vw;
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #1ED760;
+    margin: 1.7vh 0 1.5vh 0;
+}
+#loginbtn:hover{
+    opacity: 0.7;
+}
+#forgot{
+    display: flex;
+    justify-content: center;
+    flex: auto;
+}
+#forgot a{
+    color: white;
+    font-size: 0.9rem;
+}
+#forgot a:hover{
+    color: #1ED760;
+}
+#noaccount{
+    display: flex;
+    flex: auto;
+    padding: 20px 0 0 0;
+    gap: 0.1vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#nac{
+    color: #A7A7A7;
+}
+#noaccount a{
+    color: white;
+}
+#noaccount a:hover{
+    color: #1ED760;
+}
+#footer{
+    margin-top: 100px;
+    font-size: 1rem;
+    background-color: black;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+#footer p{
+    color: #A7A7A7;
+}
